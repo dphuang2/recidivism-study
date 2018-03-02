@@ -1,0 +1,11 @@
+.App {
+    margin: 20px;
+    background-color: lightgray;
+}
+
+@media screen and (min-width: 800px) {
+    .App {
+        width: 800px;
+        margin: auto;
+    }
+}
