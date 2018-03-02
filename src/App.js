@@ -3,7 +3,7 @@ import './css/App.css';
 
 import Header from './Header.js'
 import TaskDescription from './TaskDescription.js'
-import Task from './Task.js'
+import TaskArea from './TaskArea.js'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
           <Header/>
           <TaskDescription/>
-          <Task/>
+          <TaskArea/>
       </div>
     );
   }
