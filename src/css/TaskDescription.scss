@@ -1,9 +1,10 @@
 .TaskDescription {
     padding: 1em;
     background-color: #eeeeee;
+
+    p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
-.TaskDescription p {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}

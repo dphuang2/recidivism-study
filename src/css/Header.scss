@@ -1,0 +1,28 @@
+.Header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+
+    img {
+        width: 80%;
+        box-shadow: #bbbbbb 0px 2px 5px;
+        margin: auto;
+    }
+
+    .metadata {
+        padding: .5em;
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: 1fr 1fr;
+        
+        .name {
+            grid-column: 1/3;
+        }
+
+        .description {
+            grid-column: 1/3;
+        }
+    }
+
+}
+
